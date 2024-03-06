@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1709720289927,
@@ -16,6 +16,30 @@
                 {
                     "date": 1709720342337,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                 Talking Tech and AI with Google CEO Sundar Pichai!\n             </p>\n \n             <p class=\"video-author\">\n-                3.4M views &#183; 6 months ago\n+                Marques Brownlee\n             </p>\n \n             <p class=\"video-stats\">\n                 3.4M views &#183; 6 months ago\n"
+                },
+                {
+                    "date": 1709720421164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n             display: block;\n         }\n \n         .search-bar{\n-\n+                display: block;\n         }\n \n         .video-title {\n             width: 300px;\n"
+                },
+                {
+                    "date": 1709720454537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,14 @@\n         .video-title {\n             width: 300px;\n         }\n \n+        .video-preview {\n+\n+            width: 300px;\n+            display: inline-block;\n+            vertical-align: top;\n+        }\n     </style>\n \n     <body>\n \n"
+                },
+                {
+                    "date": 1709720464567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n \n             width: 300px;\n             display: inline-block;\n             vertical-align: top;\n+            margin-right: 15px;\n         }\n     </style>\n \n     <body>\n"
+                },
+                {
+                    "date": 1709720535931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,56 @@\n+<!DOCTYPE html>\n+<html>\n+\n+<head>\n+    <title>Youtube.com Clone</title>\n+    <style >\n+        .thumbnail {\n+            width: 300px;\n+            display: block;\n+        }\n+\n+        .search-bar{\n+                display: block;\n+        }\n+\n+        .video-title {\n+            width: 300px;\n+        }\n+\n+        .video-preview {\n+\n+            width: 300px;\n+            display: inline-block;\n+            vertical-align: top;\n+            margin-right: 15px;\n+        }\n+    </style>\n+\n+    <body>\n+\n+ \n+        \n+        <input class=\"searh-bar\" type=\"text\" placeholder=\"Search\">\n+\n+        <div class=\"video-preview\">\n+\n+            <img class=\"thumbnail\" src=\"thumbnails/thumbnail.png\" alt=\"Dinosaur\"/>\n+\n+            <p class=\"video-title\">\n+                Talking Tech and AI with Google CEO Sundar Pichai!\n+            </p>\n+\n+            <p class=\"video-author\">\n+                Marques Brownlee\n+            </p>\n+\n+            <p class=\"video-stats\">\n+                3.4M views &#183; 6 months ago\n+            </p>\n+        </div>\n+\n+\n+        \n+    </body>\n+</head>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709720552153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,61 +52,5 @@\n \n         \n     </body>\n </head>\n-</html>\n-<!DOCTYPE html>\n-<html>\n-\n-<head>\n-    <title>Youtube.com Clone</title>\n-    <style >\n-        .thumbnail {\n-            width: 300px;\n-            display: block;\n-        }\n-\n-        .search-bar{\n-                display: block;\n-        }\n-\n-        .video-title {\n-            width: 300px;\n-        }\n-\n-        .video-preview {\n-\n-            width: 300px;\n-            display: inline-block;\n-            vertical-align: top;\n-            margin-right: 15px;\n-        }\n-    </style>\n-\n-    <body>\n-\n- \n-        \n-        <input class=\"searh-bar\" type=\"text\" placeholder=\"Search\">\n-\n-        <div class=\"video-preview\">\n-\n-            <img class=\"thumbnail\" src=\"thumbnails/thumbnail.png\" alt=\"Dinosaur\"/>\n-\n-            <p class=\"video-title\">\n-                Talking Tech and AI with Google CEO Sundar Pichai!\n-            </p>\n-\n-            <p class=\"video-author\">\n-                Marques Brownlee\n-            </p>\n-\n-            <p class=\"video-stats\">\n-                3.4M views &#183; 6 months ago\n-            </p>\n-        </div>\n-\n-\n-        \n-    </body>\n-</head>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1709720559604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,11 @@\n             display: inline-block;\n             vertical-align: top;\n             margin-right: 15px;\n         }\n+\n+\n+        \n     </style>\n \n     <body>\n \n"
                 }
             ],
             "date": 1709720289927,
