@@ -1,0 +1,26 @@
+{
+    "sourceFile": "youtube.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1709720289927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1709720333800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,12 @@\n \n             <img class=\"thumbnail\" src=\"thumbnails/thumbnail.png\" alt=\"Dinosaur\"/>\n \n             <p class=\"video-title\">\n-                Marques Brownlee\n+                Talking Tech and AI with Google CEO Sundar Pichai!\n             </p>\n \n-            <p class=\"video-title\">\n+            <p class=\"video-author\">\n                 3.4M views &#183; 6 months ago\n             </p>\n \n             <p class=\"video-stats\">\n"
+                },
+                {
+                    "date": 1709720342337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n                 Talking Tech and AI with Google CEO Sundar Pichai!\n             </p>\n \n             <p class=\"video-author\">\n-                3.4M views &#183; 6 months ago\n+                Marques Brownlee\n             </p>\n \n             <p class=\"video-stats\">\n                 3.4M views &#183; 6 months ago\n"
+                }
+            ],
+            "date": 1709720289927,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n\n<head>\n    <title>Youtube.com Clone</title>\n    <style >\n        .thumbnail {\n            width: 300px;\n            display: block;\n        }\n\n        .search-bar{\n\n        }\n\n        .video-title {\n            width: 300px;\n        }\n\n    </style>\n\n    <body>\n\n \n        \n        <input class=\"searh-bar\" type=\"text\" placeholder=\"Search\">\n\n        <div class=\"video-preview\">\n\n            <img class=\"thumbnail\" src=\"thumbnails/thumbnail.png\" alt=\"Dinosaur\"/>\n\n            <p class=\"video-title\">\n                Marques Brownlee\n            </p>\n\n            <p class=\"video-title\">\n                3.4M views &#183; 6 months ago\n            </p>\n\n            <p class=\"video-stats\">\n                3.4M views &#183; 6 months ago\n            </p>\n        </div>\n\n\n        \n    </body>\n</head>\n</html>"
+        }
+    ]
+}
